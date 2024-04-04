@@ -10,7 +10,6 @@ public class Question {
 		this.answer = answer;
 		this.points = points;
 	}
-	
 	public void displayPrompt() {
 		System.out.println(this.prompt + "(" + this.points + " points)");
 	}
